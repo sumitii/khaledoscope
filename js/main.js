@@ -8,22 +8,13 @@ $(document).ready(function() {
     });
 
 	var index = 0;
-	var imgArr = ['url("khaled.jpg")', 'url("khaled_red.jpg")', 'url("khaled3.jpg")', 'url("khaled4.jpg")', 'url("khaled5.jpg")', 'url("khaled6.jpg")', 'url("khaled7.jpg")', 'url("khaled8.jpg")', 'url("khaled9.jpg")', 'url("khaled10.jpg")'];
+	var imgArr = ['url("/images/khaled.jpg")', 'url("images/khaled_red.jpg")', 'url("images/khaled3.jpg")', 'url("images/khaled4.jpg")', 'url("images/khaled5.jpg")', 'url("images/khaled6.jpg")', 'url("images/khaled7.jpg")', 'url("images/khaled8.jpg")', 'url("images/khaled9.jpg")', 'url("images/khaled10.jpg")'];
     //load new image on button click
    $(".another_one").click(function(e){
-   	console.log(index);
     	index++;
     	index = index % imgArr.length;
     	imgArr.url = imgArr[index];
     	$('.ksc').css("background-image", imgArr.url);
     })
 
-    // $('.another_one').click(function(e){
-    // 	
-    // 	for (i = 0; i < imgArr.length; i++){
-    // 		$('.ksc').css("background-image", imgArr[i]);
-    // 	}
-
-    // 	e.preventDefault();
-    // });
 });

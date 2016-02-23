@@ -16,7 +16,7 @@ width:50%;height:50%;position:absolute;top:50%;left:0;z-index:10;overflow:hidden
 }
 .kal_cont .ksc{
 height:100%;width:100%;-webkit-transform:rotate(30deg);-moz-transform:rotate(30deg);-o-transform:rotate(30deg);transform:rotate(30deg);position:relative;-webkit-transform-origin:left top;-moz-transform-origin:left top;-o-transform-origin:left top;transform-origin:left top;left:100%;top:0;
-background-image:url('../khaled2.jpg');
+background-image:url('../images/khaled2.jpg');
 }
 
 .page_heading{
