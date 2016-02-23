@@ -1,6 +1,6 @@
 body{
   background:#000;
-  font-family: 'Signika', sans-serif;
+  font-family: 'Oswald', sans-serif;
   color: #fff;
   margin:0;
   padding:0
@@ -24,6 +24,11 @@ background-image:url('../images/khaled2.jpg');
   text-transform: uppercase;
   color: #fff;
   padding: 15px;
+}
+
+.subheading{
+  text-align: center;
+  font-weight: 400;
 }
 
 /* styles for each sector */
